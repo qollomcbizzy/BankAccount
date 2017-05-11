@@ -10,5 +10,6 @@ $(document).ready(function(){
     event.preventDefault();
     var inputedName=$("input#new-name").val();
     var inputInitial=parseInt($("input#new-initial").val());
+    newAccount= new Account(inputedName,inputInitial);
   });
 });
